@@ -24,9 +24,9 @@ Quicksort compares each element to the pivot.
 Depends on the size of the partitions.
 n − 1 comparisons for worst-case runtime
 
-so &(n - 1) * ( n- 1) = n^2 -2n +1$ Because one is inside the while loop of the other
+so $(n - 1) * ( n- 1) = n^2 -2n +1$ Because one is inside the while loop of the other
 
-so O ($n^2) 
+so O ($n^2$) 
 
 
 
