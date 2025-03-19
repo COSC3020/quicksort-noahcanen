@@ -1,4 +1,5 @@
 function quicksort(x) {
+    if (x.length - 1 <= 0){return x;}
     qsort(x, 0, x.length - 1);
     return x;
 }
